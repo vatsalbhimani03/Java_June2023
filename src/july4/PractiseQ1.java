@@ -61,5 +61,19 @@ public class PractiseQ1 {
             default -> System.out.println("It's not a day"); // it's not gonna fall in default case because of do while loop
         }
 
+
+
+        // different pattern using nested for loop
+
+        for(int i=0;i<5; i++){
+            for(int j=5; j>i; j--){
+                System.out.print("*");
+            }
+            for(int k=i; k<4; k++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
     }
 }
