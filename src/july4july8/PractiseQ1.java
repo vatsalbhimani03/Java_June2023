@@ -1,4 +1,4 @@
-package july4;
+package july4july8;
 
 import java.util.Scanner;
 
@@ -6,6 +6,11 @@ public class PractiseQ1 {
     public static void main(String[] args) {
 
         Scanner sc =new Scanner(System.in);
+
+        // difference between next() and nextLine()
+        // next() - it will see white space and only read content till white space
+        // nextLine() - it will read all the content of the userInput string including white space
+
 
         System.out.println("Enter Number1: ");
         int num1 = sc.nextInt();
