@@ -11,6 +11,15 @@ public class PractiseQ1 {
         // next() - it will see white space and only read content till white space
         // nextLine() - it will read all the content of the userInput string including white space
 
+//        System.out.println("Enter any string");
+//        String n1 = sc.nextLine();
+//        System.out.println(n1);
+//
+//
+//        System.out.println("Enter any other string");
+//        String n2 = sc.next();
+//        System.out.println(n2);
+
 
         System.out.println("Enter Number1: ");
         int num1 = sc.nextInt();
@@ -18,6 +27,7 @@ public class PractiseQ1 {
         int num2 = sc.nextInt();
         System.out.println("Enter Number3: ");
         int num3 = sc.nextInt();
+
 
         if(num1>num2 && num1>num3){
             System.out.println(num1 + " is maximum from "+num2+" and "+num3);
